@@ -31,5 +31,7 @@ public void createLead() throws EncryptedDocumentException, IOException, Interru
 	String actmesg=lip.getSuccessmesg().getText();
 	Assert.assertTrue(actmesg.contains(data.getDataFromExcel("Organization", 2, 3)));
 	
+	System.out.println("lead test created sucessfully");
+	
 }
 }
