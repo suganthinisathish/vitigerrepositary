@@ -36,6 +36,7 @@ public class CreateOrganizationTest extends BaseClass
 		
 		String SuccsMesg=oip.getSuccessMesg().getText();
 		Assert.assertTrue(SuccsMesg.contains(data.getDataFromExcel("organization", 5, 3)));
+		System.out.println("Create organization successfully");
 		
 	}
 	
